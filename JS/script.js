@@ -25,6 +25,14 @@ $(document).ready(function() {
           let newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
 
           $(".order-summary").append(newRow);
+
+          $('#add-order').click(function() {
+            var sizeOfPizza = $("#select-size option:selected").val();
+            var toppingsOfPizza = $("#select-topping option:selected").val();
+            var crustOfPizza = $(".#select-crust option:selected").val();
+            var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
+            order = order + 1;
+            grandTotal = grandTotal + total;
     });
 
 
