@@ -8,6 +8,13 @@ $(document).ready(function() {
         let grandTotal = 0;
 
         alert("Your Order Total is Ksh." + total);
+
+        $("#selected-size").html($("#select-size option:selected").text() + " - " + sizeOfPizza);
+        $("#selected-topping").html($("#select-topping option:selected").text() + " - " + toppingsOfPizza);
+        $("#selected-crust").html($("#select-crust option:selected").text() + " - " + crustOfPizza);
+        $("#orderTotal").html(total);
+
+        
     });
 
 
