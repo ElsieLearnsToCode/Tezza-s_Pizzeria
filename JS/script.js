@@ -21,6 +21,8 @@ $(document).ready(function() {
             this.total = total;
             this.orderNo = orderNo;
           }
+        
+          let newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
     });
 
 
