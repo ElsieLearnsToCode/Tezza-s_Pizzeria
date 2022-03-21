@@ -7,6 +7,9 @@ $(document).ready(function() {
         let order = 1;
         let grandTotal = 0;
 
+        alert("Your Order Total is Ksh." + total);
+    });
+
 
 
 
