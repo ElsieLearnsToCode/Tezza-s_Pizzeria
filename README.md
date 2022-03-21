@@ -8,7 +8,7 @@ Tezza's Pizza is an online-based (e-commerce) pizza order service.  This website
 #### Live Link
 https://elsielearnstocode.github.io/Tezza_Pizzeria/
 #### Behaviour Driven Development (BDD)
-A ser is able to:
+A user is able to:
 * Select the size of pizza they want e.g Small, Medium, Large
 * Slect what kind of crust they would like their pizza to have e.g Crispy, Stuffed, Gluten-free
 * Choose the topping(s) they want on my pizza.
