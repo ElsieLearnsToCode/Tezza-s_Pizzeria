@@ -34,6 +34,10 @@ $(document).ready(function() {
             order = order + 1;
             grandTotal = grandTotal + total;
 
+            let newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
+
+          $(".order-summary").append(newRow);
+
 
     });
 

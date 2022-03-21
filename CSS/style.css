@@ -1,42 +1,35 @@
 * {
-    background-color: rgb(241, 219, 190);
+    /* background-color: rgb(241, 219, 190); */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url(../images/bbqchicken\ \(copy\).jpeg);
-    background: cover;
-
     
 }
 
+#hero {
+  height: 500px;
+}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: rgb(211, 154, 154);
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: rgb(230, 116, 116);
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: rgb(212, 135, 135);
-    color: white;
-  }
+#logo {
+  height: 200px;
+}
+
+#img1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
 
 .form {
     width: 100%;
   padding: 20px;
   margin: 10px auto;
+}
+
+
+.form option {
+  padding: 20px;
 }
 
 
