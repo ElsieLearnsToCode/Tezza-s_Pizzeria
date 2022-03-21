@@ -7,11 +7,18 @@
 }
 
 #hero {
-  height: 500px;
+  height: 550px;
+  background-image: url("../images/box1.jpg");
+  background-size: cover;
 }
 
-#logo {
-  height: 200px;
+
+.logo {
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+
 }
 
 #img1 {
@@ -20,17 +27,56 @@
   border-radius: 50%;
 }
 
+.welcome {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
 
 .form {
-    width: 100%;
-  padding: 20px;
+    width: 70%;
+  padding-top: 20px;
   margin: 10px auto;
+  text-align: center;
+  border: 2px solid black;
+  height: 300px;
+  border-radius: 2%;
+  box-shadow: 5px 10px 10px;
 }
 
 
 .form option {
   padding: 20px;
 }
+
+#select-size, #select-crust, #select-topping {
+  width: 40%;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+#append {
+  margin-top: 5%;
+}
+
+.order-summary-table {
+  margin-top: 5%;
+  border: 2px solid rgb(218, 191, 191);
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  background-color: rgb(218, 191, 191);
+}
+
+#add-order {
+  margin-left:45%;
+  margin-top: 3%;
+}
+
+
+
+
+
 
 
 

@@ -14,51 +14,46 @@
                 <div class="col-12" id="logo"><img src="./images/logo1.jpg" alt="" id="img1"></div>
                 <div class="col-12" id="heading">
                     <h2 class="logo">Welcome to Tezza's Pizza</h2>
-                    <p>We are eager to serve you.</p>
-                    <p>Enter Your Order Below</p> 
+                    <p class="welcome">We are eager to serve you.</p>
+                    <p class="welcome">Enter Your Order Below</p> 
                 </div>
             </div>
     </div>
     <!-- User Input Form -->
     <div class="container-fluid form-container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="form">
-                    <form>
+                    <form class="form">
                         <select class="form-select pizza-size" id="select-size" required>
                             <option selected>Select Size</option>
                             <option value="300" label="Small">Small</option>
                             <option value="500" label="Medium">Medium</option>
                             <option value= "800" label="Large">Large</option>
-                          </select>
+                          </select> <br> 
                           <select class="form-select pizza-crust" id="select-crust"required >
                             <option selected>Select Crust</option>
                             <option value="200" label="Cornicone Crust">Cornicione Crust</option>
                             <option value="200" label="Neopolitan Crust">Neopolitan Crust</option>
                             <option value="200" label="Sicilian Style">Sicilian Style</option>
-                          </select>
+                          </select> <br>
                           <select class="form-select pizza-topping" id="select-topping" required>
                             <option selected>Select Toppings</option>
                             <option value="150" label="Olives">Olives</option>
                             <option value="150" label="Pepperoni">Pepperoni</option>
                             <option value="150" label="Sweet Corn">Sweet Corn</option>
-                          </select> 
+                          </select> <br>
                           <div class="button">
                             <button type="button" class="btn btn-primary" id="submit-order" value="submit" onclick="formSubmit()">
                              Submit Order
                             </button>
                           </div>
                     </form>
-                </div>
-            </div>
         </div>
     </div>
     <!-- Order Summary Table -->
-    <div class="container-fluid">
-        <div class="col-md-12">
+    <div class="container-fluid"id="append">
             <div class="row">
-                <h2>Your Order Summary</h2>
-                <table class="order-summary-table">
+                <h2 class="logo">Your Order Summary</h2>
+                <table class="order-summary-table" id="table1">
                     <thead>
                         <tr>
                             <th scope="col">Order#</th>
@@ -80,7 +75,6 @@
                     <button class="btn btn-primary" id="add-order" value="submit" onclick="formSubmit()">Add Order</button>
                 </div>
             </div>
-        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
