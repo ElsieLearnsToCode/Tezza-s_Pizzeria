@@ -17,7 +17,7 @@
   height: 50px;
   font-size: 50px;
   text-align: center;
-  color: black;
+  color: rgb(219, 204, 204);
 
 }
 
@@ -30,7 +30,7 @@
 .welcome {
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: rgb(231, 191, 191);
 }
 
 .form {
@@ -40,8 +40,8 @@
   text-align: center;
   border: 2px solid black;
   height: 300px;
-  border-radius: 2%;
-  box-shadow: 5px 10px 10px;
+  box-shadow: 10px 20px 5px;
+  background-color:rgb(218, 191, 191) ;
 }
 
 
@@ -61,11 +61,12 @@
 
 .order-summary-table {
   margin-top: 5%;
-  border: 2px solid rgb(218, 191, 191);
+  border: 2px solid black;
   height: 200px;
   width: 80%;
   margin-left: 10%;
   background-color: rgb(218, 191, 191);
+  box-shadow: 10px 20px 5px;
 }
 
 #add-order {
