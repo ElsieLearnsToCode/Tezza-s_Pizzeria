@@ -5,11 +5,6 @@
     box-sizing: border-box;
     
 }
-
-body {
-    padding-top: 40px;
-}
-
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -37,8 +32,9 @@ body {
     width: 100%;
   padding: 20px;
   margin: 10px auto;
-
 }
+
+
 
 
 
