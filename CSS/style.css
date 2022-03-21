@@ -35,7 +35,7 @@
 
 .form {
     width: 70%;
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 10px auto;
   text-align: center;
   border: 2px solid black;
@@ -72,6 +72,16 @@
   margin-left:45%;
   margin-top: 3%;
 }
+
+#contact {
+  margin-top: 5%;
+}
+
+h2, h3, .contact1 {
+    text-align: center;
+}
+
+
 
 
 
