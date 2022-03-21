@@ -21,7 +21,40 @@
             </div>
         </div>
     </div>
-    
+    <!-- User Input Form -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form">
+                    <form action="">
+                        <select class="form-select pizza-size" id="select-size" required>
+                            <option selected>Select Size</option>
+                            <option value="300" label="Small">Small</option>
+                            <option value="500" label="Medium">Medium</option>
+                            <option value= "800" label="Large">Large</option>
+                          </select>
+                          <select class="form-select pizza-crust" id="select-crust"required >
+                            <option selected>Select Crust</option>
+                            <option value="200" label="Cornicone Crust">Cornicione Crust</option>
+                            <option value="200" label="Neopolitan Crust">Neopolitan Crust</option>
+                            <option value="200" label="Sicilian Style">Sicilian Style</option>
+                          </select>
+                          <select class="form-select pizza-topping" id="select-topping" required>
+                            <option selected>Select Toppings</option>
+                            <option value="150" label="Olives">Olives</option>
+                            <option value="150" label="Pepperoni">Pepperoni</option>
+                            <option value="150" label="Sweet Corn">Sweet Corn</option>
+                          </select> 
+                          <div class="button">
+                            <button type="button" class="btn btn-primary" id="submit-order" value="submit" onclick="formSubmit()">
+                             Submit Order
+                            </button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
