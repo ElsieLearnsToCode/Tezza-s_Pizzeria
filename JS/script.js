@@ -33,6 +33,10 @@ $(document).ready(function() {
             var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
             order = order + 1;
             grandTotal = grandTotal + total;
+
+
+    });
+
     });
 
 

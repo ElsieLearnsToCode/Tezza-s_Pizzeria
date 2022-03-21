@@ -3,8 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url(../images/bbqchicken\ \(copy\).jpeg);
+    background: cover;
+
     
 }
+
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
