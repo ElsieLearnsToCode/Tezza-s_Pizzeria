@@ -23,6 +23,8 @@ $(document).ready(function() {
           }
         
           let newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
+
+          $(".order-summary").append(newRow);
     });
 
 
